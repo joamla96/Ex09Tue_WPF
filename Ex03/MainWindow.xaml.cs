@@ -30,5 +30,9 @@ namespace Ex03 {
 		private void Button_Click_BlueView(object sender, RoutedEventArgs e) {
 			DataContext = new BlueViewModel();
 		}
+
+		private void Button_Click_OrangeView(object sender, RoutedEventArgs e) {
+			DataContext = new OrangeViewModel();
+		}
 	}
 }

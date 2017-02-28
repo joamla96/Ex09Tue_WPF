@@ -57,11 +57,15 @@
     </ApplicationDefinition>
     <Compile Include="ViewModels\BlueViewModel.cs" />
     <Compile Include="ViewModels\GreenViewModel.cs" />
+    <Compile Include="ViewModels\OrangeViewModel.cs" />
     <Compile Include="Views\BlueView.xaml.cs">
       <DependentUpon>BlueView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\GreenView.xaml.cs">
       <DependentUpon>GreenView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrangeView.xaml.cs">
+      <DependentUpon>OrangeView.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -80,6 +84,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\GreenView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OrangeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
