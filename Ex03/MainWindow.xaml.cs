@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ex03.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,14 @@ namespace Ex03 {
 	public partial class MainWindow : Window {
 		public MainWindow() {
 			InitializeComponent();
+		}
+
+		private void Button_Click_GreenView(object sender, RoutedEventArgs e) {
+			DataContext = new GreenViewModel();
+		}
+
+		private void Button_Click_BlueView(object sender, RoutedEventArgs e) {
+			DataContext = new BlueViewModel();
 		}
 	}
 }

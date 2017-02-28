@@ -35,8 +35,8 @@
 
         <DockPanel Background="Red" Grid.Row="0" Grid.Column="0" Grid.RowSpan="5">
             <StackPanel>
-                <Button Content="Green View" />
-                <Button Content="Blue View" />
+                <Button Content="Green View" Click="Button_Click_GreenView" />
+                <Button Content="Blue View" Click="Button_Click_BlueView" />
             </StackPanel>
         </DockPanel>
 
