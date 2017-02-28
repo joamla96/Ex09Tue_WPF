@@ -21,5 +21,12 @@ namespace UI.Graphical {
 		public MainWindow() {
 			InitializeComponent();
 		}
+		private void Button_Click_P1(object sender, RoutedEventArgs e) {
+			Main.Content = new Page1();
+		}
+
+		private void Button_Click_P2(object sender, RoutedEventArgs e) {
+			Main.Content = new Page2();
+		}
 	}
 }
